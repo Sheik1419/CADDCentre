@@ -788,8 +788,8 @@ button {
 
     #card0 #dv03 {
         margin-top: 30px;
-        display: flex;
-        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #card0 #p {
@@ -802,7 +802,7 @@ button {
     }
 
     #card0 #dv03 iframe {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -837,7 +837,7 @@ button {
     }
 
     .dv7 div img {
-        width: 260px;
+        width: 220px;
         height: 150px;
     }
 
@@ -889,7 +889,7 @@ button {
     }
 
     .dv9 div img {
-        width: 260px;
+        width: 220px;
         height: 150px;
     }
 
