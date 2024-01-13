@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
 
     <!-- JS - start -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
         (function () {
             emailjs.init("lBMxgaxpYHD79GW4n");
         })();
-    </script>
+    </script> -->
     <!-- JS - end -->
 </head>
 
@@ -225,22 +225,20 @@
 <script>
 
     // EmailJs-----------------------------------------
-    function sendmail() {
-        console.log("inner send mail");
-        var params = {
-            name: document.getElementById("name").value,
-            number: document.getElementById("number").value,
-            email: document.getElementById("email").value,
-            profile: document.getElementById("form-profile").value,
-            certificate: document.getElementById("form-certificate").value,
-            // state: document.getElementById("state").value,
-            district: document.getElementById("district").value
-        }
-        // emailjs.send("service_7q9h3kd", "template_8ku6hkp", params).then(function (res) {
-        emailjs.send("service_7q9h3kd", "template_ga7hlzd", params).then(function (res) {
-            alert("success! " + res.status);
-        })
-    }
+    // function sendmail() {
+    //     console.log("inner send mail");
+    //     var params = {
+    //         name: document.getElementById("name").value,
+    //         number: document.getElementById("number").value,
+    //         email: document.getElementById("email").value,
+    //         profile: document.getElementById("form-profile").value,
+    //         certificate: document.getElementById("form-certificate").value,
+    //         district: document.getElementById("district").value
+    //     }
+    //     emailjs.send("service_7q9h3kd", "template_ga7hlzd", params).then(function (res) {
+    //         alert("success! " + res.status);
+    //     })
+    // }
 
     // Navbar------------------------------------------
     $(function () {
