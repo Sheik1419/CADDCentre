@@ -304,7 +304,7 @@ a {
 
 .card_img{
     position: relative;
-    transition: 1s ease-in-out;
+    transition: 500ms ease-in-out;
 }
 
 

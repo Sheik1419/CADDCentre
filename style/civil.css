@@ -179,24 +179,11 @@ a {
   width: 100%;
 }
 
-#d1 h1{
+#d1 h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: left;
   padding-top: 100px;
-}
-
-#d1 #ul0 li{
-  list-style-type: none;
-}
-
-#d1 #ul0 p{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 17px;
-}
-
-#d1 #ul0 .span0{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 13px;
+  color: #cc0202;
 }
 
 .content .left-c {
@@ -205,7 +192,56 @@ a {
 }
 
 .content .form {
+  margin-top: 200px;
   width: 30%;
+}
+
+.d6,
+.d7 {
+  cursor: pointer;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#d07 {
+  width: 45%;
+}
+
+#d06 {
+  width: 45%;
+}
+
+#d08 {
+  width: 45%;
+}
+
+
+#d0007,
+#d0006,
+#d0008 {
+  display: none;
+  /* box-shadow: 5px 2px 10px rgb(107, 107, 107);   */
+  padding: 10px;
+  text-align: justify;
+}
+
+.sp01 {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.sp01:hover {
+  color: #cc0202;
+  transition: 500ms;
+}
+
+.sp02 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 12px;
 }
 
 /* --------------------------------------------------- */
@@ -218,7 +254,6 @@ a {
 }
 
 .form form {
-  margin-top: 120px;
   border: 1px solid;
   border-radius: 5px;
   display: flex;
@@ -258,7 +293,7 @@ select:focus {
 
 /* Footer */
 #f00 {
-  margin-top: 0px;
+  margin-top: 500px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   height: 400px;
@@ -484,7 +519,7 @@ select:focus {
     text-align: justify;
   }
 
-  #d1 h1{
+  #d1 h1 {
     text-align: center;
   }
 
