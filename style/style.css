@@ -725,7 +725,7 @@ button {
 /* ------------------------------------------------ */
 /* Responsive */
 /* Navbar */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #nav {
         width: 100%;
         height: 60px;
@@ -754,7 +754,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Ṣection 3 */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #sc3 {
         width: 100%;
         margin-top: 20px;
@@ -775,7 +775,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Carousel */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #carousel img {
         width: 100%;
         height: 180px;
@@ -785,7 +785,7 @@ button {
 /* ------------------------------------------------ */
 
 /* About */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #card0 {
         width: 100%;
         padding-top: 80px;
@@ -832,7 +832,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Card 1 */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #card1 {
         width: 100%;
         padding-top: 70px;
@@ -955,7 +955,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Images Section */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #div {
         display: none;
     }
@@ -964,7 +964,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Splide */
-/* @media screen and (max-width:600px) {
+/* @media screen and (max-width:800px) {
     .carousel1 {
         margin-top: 40px;
         height: 330px;
@@ -1020,7 +1020,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Contact Form */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #contact {
         width: 100%;
         height: 550px;
@@ -1089,7 +1089,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Footer */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #f00 {
         width: 100%;
         height: 600px;
@@ -1137,7 +1137,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Logos */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #d001 {
         margin-top: 80px;
         width: auto;
@@ -1161,7 +1161,7 @@ button {
 /* ------------------------------------------------ */
 
 /* Count Section */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #d01 {
         margin-top: 20px;
         width: 100%;

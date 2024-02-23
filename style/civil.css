@@ -422,7 +422,7 @@ select:focus {
 
 /* Responsive */
 /* Navbar */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   #nav {
     width: 100%;
     height: 60px;
@@ -451,7 +451,7 @@ select:focus {
 /* --------------------------------------------------- */
 
 /* Section 1 */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   #section1 {
     flex-direction: column;
     margin: 30px 0px !important;
@@ -504,7 +504,7 @@ select:focus {
 /* --------------------------------------------------- */
 
 /* Content */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   .content {
     margin-top: -140px;
     flex-direction: column;
@@ -620,7 +620,7 @@ select:focus {
 /* --------------------------------------------------- */
 
 /* Footer */
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   #f00 {
     margin-top: 0px;
     width: 100%;
