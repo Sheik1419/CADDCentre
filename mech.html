@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- jQuery cdn -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style/mech.css" />
@@ -216,13 +218,13 @@
         <div id="f01">
             <div id="f02">
                 <h1>CADD Centre</h1><br>
-                <p>CADD Centre - Sholinganallur (OMR) | Best CAD Training Centre in Chennai <br><br>
-                <h4>Phone:</h4>+91 98408 42226 <br><br>
-                <h4>Email:</h4>tn.kanchipuram@caddcentre.com
+                <p>CADD Centre - Salem | Best CAD Training <br> Centre in TamilNadu <br><br>
+                <h4>Phone:</h4>+91 98942 43830 <br><br>
+                <h4>Email:</h4>tn.salem@caddcentre.com | tn.salemcherry@caddcentre.com
                 </p>
             </div>
             <div id="f03">
-                <p>Join CADD Centre Sholinganallur today and embark on a journey towards becoming a proficient and
+                <p>Join CADD Centre Salem today and embark on a journey towards becoming a proficient and
                     certified professional in AutoCAD, SolidWorks, and Catia. Elevate your skills, boost your
                     career,
                     and be a part of the design revolution!</p><br>
@@ -243,8 +245,7 @@
                 </ul>
             </div>
             <div id="f04">
-                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
-                    src="https://www.google.com/maps/embed/v1/place?q=CADD+Centre+-+Sholinganallur+(OMR)+|+Best+CAD+Training+Centre+in+Chennai,+Sholinganallur,+Chennai,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16880.6304566557!2d78.12833611403855!3d11.670495167781661!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf067fec3f34f%3A0xd3f8f3b5a328e9ba!2sCADD%20Centre%20%3A%20Salem%20(New%20Bus%20stand)!5e0!3m2!1sen!2sin!4v1708873908535!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div id="f05">
@@ -293,8 +294,11 @@
 
     // Navbar------------------------------------------
     $(function () {
-        $("#crse").click(function () {
-            $("#dv1").slideToggle()
+        $("#crse").mouseenter(function () {
+            $("#dv1").slideDown()
+        })
+        $("#crse").mouseleave(function () {
+            $("#dv1").slideUp()
         })
     })
 

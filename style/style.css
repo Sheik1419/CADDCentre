@@ -52,14 +52,14 @@ a {
 
 #nav2 #dv1 {
     background-color: #ffffff;
-    height: 90px;
+    height: 85px;
     display: none;
     position: absolute;
-    top: 90px;
+    top: 55px;
     z-index: 100;
     margin-left: -100px;
     padding: 10px 10px;
-    border: 1px solid rgb(165, 165, 165);
+    /* border: 1px solid rgb(165, 165, 165); */
     border-top: none;
 }
 
@@ -380,75 +380,6 @@ a {
 }
 
 /* ------------------------------------------- */
-
-/* Splide */
-/* .carousel1 {
-    height: 650px;
-    width: 95%;
-    margin-left: 2.5%;
-}
-
-.carousel1 #sp1 p {
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    margin-left: 10%;
-    padding: 5% 0% 0% 0%;
-}
-
-.carousel1 #img0019 {
-    margin-left: 10%;
-}
-
-.splide__slide img {
-    margin-left: 35%;
-    margin-top: 10%;
-    width: 80%;
-    height: 200px;
-}
-
-.splide__slide p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 50%;
-    text-align: center;
-}
-
-.splide__progress__bar {
-    height: 3px;
-    background: #ccc;
-}
-
-.carousel1 .splide__slide p {
-    color: white;
-    font-size: 20px;
-}
-
-.carousel1 .splide__slide a {
-    text-decoration: none;
-}
-
-.carousel1 .splide__slide p span {
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
-    text-align: center;
-}
-
-.carousel1 .btn1 {
-    color: white;
-    background-color: #bd0123;
-    border-radius: 15px;
-    border: none;
-}
-
-.carousel1 .btn1:hover {
-    color: #bd0123;
-    background-color: white;
-    transition: 600ms;
-    font: bold;
-} */
-
-/* ------------------------------------------ */
 
 /* Logos */
 #d001 {
